@@ -63,7 +63,6 @@
 }
 .button-cont {
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
 }
 .like-cont {
@@ -72,8 +71,6 @@
 }
 .del-but {
   background-color: transparent;
-  /* border: none; */
-  /* outline: none; */
   margin-left: 500px;
 }
 .delete-image {
