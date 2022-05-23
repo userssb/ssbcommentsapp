@@ -1,0 +1,43 @@
+.bg-cont {
+  font-family: Roboto;
+  padding: 20px;
+}
+.description {
+  font-weight: bold;
+}
+.heading {
+  margin-bottom: 20px;
+  margin-left: 50px;
+}
+.form-cont {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.input-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 50px;
+}
+.name-input {
+  margin-bottom: 20px;
+}
+.submit-button {
+  background-color: #0284c7;
+  color: white;
+  margin-top: 20px;
+}
+.comments-image {
+  margin-left: 300px;
+  height: 250px;
+  width: 300px;
+}
+.comment-length {
+  color: #0b69ff;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-right: 5px;
+  font-size: 20px;
+}
