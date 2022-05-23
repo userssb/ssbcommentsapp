@@ -103,11 +103,15 @@ class Comments extends Component {
                 type="text"
                 className="name-input"
                 onChange={this.onChangeNameInput}
+                placeholder="Your Name"
+                value={nameInput}
               />
               <textarea
                 className="comment-input"
                 onChange={this.onChangeCommentInput}
                 rows="6"
+                value={commentInput}
+                placeholder="Your Comment"
               />
               <button className="submit-button" type="submit">
                 Add Comment
